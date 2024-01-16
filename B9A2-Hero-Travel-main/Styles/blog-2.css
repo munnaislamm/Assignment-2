@@ -1,0 +1,145 @@
+* {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+header {}
+
+.nav-bar {
+    width: 1160px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 49px;
+}
+
+.icon-img {
+    width: 58px;
+    height: 56.008px;
+    position: relative;
+}
+
+.first-half {
+    width: 50%;
+    display: flex;
+}
+
+.super {
+    padding-left: 13px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.second-half {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding-top: 15px;
+}
+
+a {
+    color: var(--Dark-02, #424247);
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+#hit {
+    color: #FF5400;
+    font-weight: 700;
+
+}
+
+.banner-img {}
+
+.banner-all {
+    position: relative;
+}
+
+.banner-head {
+    position: absolute;
+    text-align: center;
+    bottom: 374px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-para {
+    position: absolute;
+    bottom: 320px;
+    left: 240px;
+    width: 676px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.common-btn,input,select {
+    
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+.common-btn{
+    width: 840px;
+    height: 74px;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+    background-color: ;
+    bottom: 150px;
+    padding-top: 27px;
+    position: relative;
+    display: flex;
+    gap: 15px;
+}
+#intput-1{
+    color: rgba(19, 19, 24, 0.50);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    border: none;
+}
+#selec-1{
+    padding-left:23px;
+    color: rgba(19, 19, 24, 0.50);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#input-btn{
+    height: 48px;
+    color:white;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+}
