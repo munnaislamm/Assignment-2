@@ -319,29 +319,32 @@ select {
     width: 673px;
     height: 300px;
 }
-.maldives{
+
+.maldives {
     position: absolute;
     color: #FFF;
-font-family: Mulish;
-font-size: 28px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-left: 230px;
-top: 140px;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    left: 230px;
+    top: 140px;
 }
-.indonesia{
+
+.indonesia {
     position: absolute;
     color: #FFF;
-font-family: Mulish;
-font-size: 28px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-left: 230px;
-top: 140px;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    left: 230px;
+    top: 140px;
 }
-.srilanka{
+
+.srilanka {
     position: absolute;
     color: #FFF;
     font-family: Mulish;
@@ -352,7 +355,8 @@ top: 140px;
     top: 130px;
     left: 130px;
 }
-.north-america{
+
+.north-america {
     position: absolute;
     color: #FFF;
     font-family: Mulish;
@@ -363,7 +367,8 @@ top: 140px;
     top: 130px;
     left: 130px;
 }
-.kashmir{
+
+.kashmir {
     position: absolute;
     color: #FFF;
     font-family: Mulish;
@@ -374,7 +379,8 @@ top: 140px;
     top: 130px;
     left: 100px;
 }
-.bangladesh{
+
+.bangladesh {
     position: absolute;
     color: #FFF;
     font-family: Mulish;
@@ -385,7 +391,8 @@ top: 140px;
     top: 130px;
     left: 150px;
 }
-.bandarban{
+
+.bandarban {
     position: absolute;
     color: #FFF;
     font-family: Mulish;
@@ -395,4 +402,97 @@ top: 140px;
     line-height: normal;
     top: 130px;
     left: 250px;
+}
+
+.mid-head {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 100px;
+}
+
+.mid-para {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.mid-section {
+    margin-top: 50px;
+    width: 1170px;
+    display: flex;
+    gap: 4px;
+
+}
+
+.mid-div{
+width: 48%;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.hotel-img {
+    width: 64px;
+    height: 64px;
+    padding-left: 35px;
+}
+.handpicked{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 35px;
+}
+.hotel-para{
+    width: 486px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.last-div{
+width: 48%;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+
+.google-map{
+    width: 64px;
+    height: 64px;
+    padding-left: 35px;
+}
+.world-class{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 35px;
+}
+.map-para{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+width: 486px;
+
 }
