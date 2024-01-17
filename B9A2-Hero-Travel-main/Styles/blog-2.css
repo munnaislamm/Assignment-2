@@ -121,7 +121,7 @@ font-weight: 400;
 line-height: normal;
     border: none;
 }
-#selec-1{
+#select-1{
     padding-left:23px;
     color: rgba(19, 19, 24, 0.50);
 font-family: Mulish;
@@ -142,4 +142,85 @@ line-height: normal;
 border-radius: 8px;
 background: #FF5400;
 border: none;
+}
+.banner-down{
+    display: flex;
+/* border: 2px solid brown; */
+width: 1170px;
+height: 540px;
+}
+.first-di{
+    
+    /* border: 1px solid black; */
+    width: 540px;
+    height: 94%;
+    margin: auto;
+
+}
+.second-di{
+    /* border: 1px solid black; */
+    width: 48%;
+    height: 94%;
+    margin: auto;
+    display: flex;
+    
+}
+.describing{
+    width: 577px;
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.ul-class{
+    width: 525px;
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.main-ul{
+width: 525px;
+}
+.rec-img{
+    width: 500px;
+    height: 520px;
+    margin-left: 80px;
+}
+.popular-plan{
+    color: #131318;
+
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+}
+   
+.destination{
+    width: 478px;
+    height: 50px;
+    margin-top: 100px;
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.more-describe{
+    width: 643px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
 }
