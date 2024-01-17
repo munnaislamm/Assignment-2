@@ -434,19 +434,21 @@ select {
 
 }
 
-.mid-div{
-width: 48%;
-height: 284px;
-border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
+.mid-div {
+    width: 48%;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
 }
+
 .hotel-img {
     width: 64px;
     height: 64px;
     padding-left: 35px;
 }
-.handpicked{
+
+.handpicked {
     color: #131318;
     font-family: Mulish;
     font-size: 24px;
@@ -455,7 +457,8 @@ background: rgba(251, 181, 99, 0.05);
     line-height: normal;
     padding-left: 35px;
 }
-.hotel-para{
+
+.hotel-para {
     width: 486px;
     color: #5A5A5D;
     font-family: Mulish;
@@ -464,20 +467,22 @@ background: rgba(251, 181, 99, 0.05);
     font-weight: 400;
     line-height: 26px;
 }
-.last-div{
-width: 48%;
-height: 284px;
-border-radius: 16px;
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
+
+.last-div {
+    width: 48%;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
 }
 
-.google-map{
+.google-map {
     width: 64px;
     height: 64px;
     padding-left: 35px;
 }
-.world-class{
+
+.world-class {
     color: #131318;
     font-family: Mulish;
     font-size: 24px;
@@ -486,13 +491,153 @@ background: rgba(41, 206, 246, 0.05);
     line-height: normal;
     padding-left: 35px;
 }
-.map-para{
-    color: #5A5A5D;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; 
-width: 486px;
 
+.map-para {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px;
+
+}
+
+.dove {
+    margin-top: 20px;
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.price-tag {
+    padding-left: 35px;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.last-head {
+    padding-left: 35px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.crow {
+    width: 486px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.my-section {
+    padding: 20px;
+    margin-top: 50px;
+    width: 1170px;
+    height: 484px;
+    border-radius: 16px;
+    border: 1px solid rgba(199, 153, 206, 0.341);
+    background: rgba(14, 60, 29, 0.381);
+}
+
+.my-head {
+    font-size: 30px;
+    font-family: Mulish;
+}
+
+li {
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.my-head2 {
+    color: rgba(229, 103, 195, 0.705);
+    font-size: 30px;
+    text-align: center;
+    font-family: Mulish;
+}
+
+.parrent-div {
+    width: 1170px;
+    height: 422px;
+    display: flex;
+    margin-top: 60px;
+}
+
+.final-div {
+    width: 474px;
+
+
+}
+
+.finish-div {
+    width: 670px;
+
+}
+
+.newsletter {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.input-up-para {
+    padding-right: 40px;
+    width: 350px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.input {
+    border: none;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-left: 40px;
+    margin-top: 24px;
+}
+
+.last-button {
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-left: 40px;
+    margin-top: 24px;
+    width: 393px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.last-img {
+    width: 100%;
 }
