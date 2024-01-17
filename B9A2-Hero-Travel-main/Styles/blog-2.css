@@ -91,19 +91,22 @@ a {
     line-height: 26px;
 }
 
-.common-btn,input,select {
-    
+.common-btn,
+input,
+select {
+
     width: 174px;
     height: 52px;
     flex-shrink: 0;
     border-radius: 8px;
     background: #FFF;
 }
-.common-btn{
+
+.common-btn {
     width: 840px;
     height: 74px;
     border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.30);
     background-color: ;
     bottom: 150px;
     padding-top: 27px;
@@ -111,116 +114,285 @@ background: rgba(255, 255, 255, 0.30);
     display: flex;
     gap: 15px;
 }
-#intput-1{
+
+#intput-1 {
     color: rgba(19, 19, 24, 0.50);
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     border: none;
 }
-#select-1{
-    padding-left:23px;
+
+#select-1 {
+    padding-left: 23px;
     color: rgba(19, 19, 24, 0.50);
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-#input-btn{
+
+#input-btn {
     height: 48px;
-    color:white;
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-border-radius: 8px;
-background: #FF5400;
-border: none;
+    color: white;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
 }
-.banner-down{
+
+.banner-down {
     display: flex;
-/* border: 2px solid brown; */
-width: 1170px;
-height: 540px;
+    /* border: 2px solid brown; */
+    width: 1170px;
+    height: 540px;
 }
-.first-di{
-    
+
+.first-di {
+
     /* border: 1px solid black; */
     width: 540px;
     height: 94%;
     margin: auto;
 
 }
-.second-di{
+
+.second-di {
     /* border: 1px solid black; */
     width: 48%;
     height: 94%;
     margin: auto;
     display: flex;
-    
+
 }
-.describing{
+
+.describing {
     width: 577px;
     color: rgba(19, 19, 24, 0.70);
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }
-.ul-class{
+
+.ul-class {
     width: 525px;
     color: rgba(19, 19, 24, 0.70);
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
 }
-.main-ul{
-width: 525px;
+
+.main-ul {
+    width: 525px;
 }
-.rec-img{
+
+.rec-img {
     width: 500px;
     height: 520px;
     margin-left: 80px;
 }
-.popular-plan{
+
+.popular-plan {
     color: #131318;
 
     font-family: Mulish;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal; 
+    line-height: normal;
 }
-   
-.destination{
+
+.destination {
     width: 478px;
     height: 50px;
     margin-top: 100px;
     color: #131318;
-text-align: center;
-font-family: Mulish;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.more-describe{
+
+.more-describe {
     width: 643px;
     height: 52px;
     color: rgba(19, 19, 24, 0.70);
-text-align: center;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.img-container {
+    width: 1170px;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.first-division {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.img-items-1 {
+    position: relative;
+    display: flex;
+    width: 573px;
+    height: 300px;
+}
+
+.img-items-2 {
+    position: relative;
+    display: flex;
+    width: 573px;
+    height: 300px;
+
+}
+
+.second-division {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.img-items-3 {
+    position: relative;
+    display: flex;
+    width: 374px;
+    height: 286px;
+
+}
+
+.img-items-4 {
+    position: relative;
+    display: flex;
+    width: 474px;
+    height: 286px;
+
+}
+
+.img-items-5 {
+    position: relative;
+    display: flex;
+    width: 274px;
+    height: 286px;
+
+}
+
+.third-division {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.img-items-6 {
+    position: relative;
+    display: flex;
+    width: 473px;
+    height: 300px;
+}
+
+.img-items-7 {
+    position: relative;
+    display: flex;
+    width: 673px;
+    height: 300px;
+}
+.maldives{
+    position: absolute;
+    color: #FFF;
 font-family: Mulish;
-font-size: 16px;
+font-size: 28px;
 font-style: normal;
-font-weight: 400;
-line-height: 26px;
+font-weight: 800;
+line-height: normal;
+left: 230px;
+top: 140px;
+}
+.indonesia{
+    position: absolute;
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+left: 230px;
+top: 140px;
+}
+.srilanka{
+    position: absolute;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    top: 130px;
+    left: 130px;
+}
+.north-america{
+    position: absolute;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    top: 130px;
+    left: 130px;
+}
+.kashmir{
+    position: absolute;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    top: 130px;
+    left: 100px;
+}
+.bangladesh{
+    position: absolute;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    top: 130px;
+    left: 150px;
+}
+.bandarban{
+    position: absolute;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    top: 130px;
+    left: 250px;
 }
